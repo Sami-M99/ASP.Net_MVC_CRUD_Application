@@ -1,0 +1,20 @@
+﻿@model ASP.Net_MVC.Entities.Employee
+
+<html>
+    <body>
+        <form asp-action="Update" method="post">
+            <h3>Update Information for an Employee</h3>
+            <br />
+            <label asp-for="EmployeeID">Enter an EmployeeId : </label>
+            <input asp-for="EmployeeID" />
+            <br />
+            <label asp-for="FirstName">Enter a FirstName : </label>
+            <input asp-for="FirstName" />
+            <br />
+            <label asp-for="LastName">Enter an LastName : </label>
+            <input asp-for="LastName" />
+            <br />
+            <button type="submit" class="btn btn-warning">Update</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+﻿@model ASP.Net_MVC.Entities.Employee
+
+<html>
+    <body>
+        <div>
+        <form asp-action="Delete" method="post">
+            <h3>Delete an Employee</h3>
+            <br />
+            <label asp-for="EmployeeID">Enter an EmployeeId : </label>
+            <input asp-for="EmployeeID" />
+            <pre></pre>
+            <button type="submit"  class="btn btn-danger"> Delete </button>
+        </form>
+        </div>
+    </body>
+</html>
